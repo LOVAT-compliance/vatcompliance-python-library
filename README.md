@@ -1,10 +1,10 @@
 # vatcompliance api python library
 
-## Установка плагина
+## Library install
 
-Офицальная документация находится [Здесь](https://developers.vatcompliance.co/omp-tax-rate-api/)
+The official documentation is located [here](https://developers.vatcompliance.co/omp-tax-rate-api/)
 
-##Getting Started
+## Getting Started
 ```
 pip install vatcompliance
 ```
@@ -40,7 +40,7 @@ result = client.omp_feed(
 )
 ```
 
-Если вы видите в методе POST ?if_digital={true/false}&if_vat_calculate={true/false} задайте данный параметр в массиве как:
+if you se in method POST ?if_digital={true/false}&if_vat_calculate={true/false} set the given parameter in the array as:
 ```
 	"getParams": {
             "if_digital": True,
