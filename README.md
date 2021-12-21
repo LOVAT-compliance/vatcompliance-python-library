@@ -1,6 +1,6 @@
-# vatcompliance api python library
+# Vatcompliance api python library
 
-## Library install
+## Plugin install
 
 The official documentation is located [here](https://developers.vatcompliance.co/omp-tax-rate-api/)
 
@@ -46,4 +46,70 @@ if you se in method POST ?if_digital={true/false}&if_vat_calculate={true/false} 
             "if_digital": True,
             "if_vat_calculate": True,
         }
+```
+
+## OMP Feed API methods
+
+#### Definition
+
+Omp feed
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.omp_feed()
+```
+
+Omp Tax Rate
+
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.omp_tax_rate()
+```
+
+Omp Report Create
+
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.omp_report_create()
+```
+
+Get Status
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.omp_status()
+```
+
+Get Report
+
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.omp_get_report()
+```
+
+Omp Invoice
+
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.omp_invoice()
+```
+
+## Omp Merchant Api
+
+Merchant feed
+
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.merchant_send()
+```
+
+Merchant Tax Rate
+
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.merchant_tax_rate()
+```
+
+Merchant Vat Checker
+```
+client = vatcompliance.Client(api_key='__APIKEY__')
+client.merchant_vat_checker()
 ```
