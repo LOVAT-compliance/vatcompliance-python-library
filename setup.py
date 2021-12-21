@@ -8,5 +8,8 @@ setup(
     license='MIT License',
     author='vatcompliance',
     author_email='info@vatcompliance.co',
-    description='Vatcompliance API client for Python'
+    description='Vatcompliance API client for Python',
+    install_requires=[
+        'requests >= 2.13.0',
+    ],
 )

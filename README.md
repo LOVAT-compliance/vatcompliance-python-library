@@ -6,7 +6,7 @@ The official documentation is located [here](https://developers.vatcompliance.co
 
 ## Getting Started
 ```
-pip install vatcompliance
+pip install vatcompliance==1.0.0
 ```
 
 ## Package Dependencies
