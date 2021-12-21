@@ -1,4 +1,4 @@
-# vatcompliance api php library
+# vatcompliance api python library
 
 ## Установка плагина
 
